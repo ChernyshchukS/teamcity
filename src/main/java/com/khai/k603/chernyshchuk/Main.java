@@ -17,6 +17,10 @@ public class Main {
         calculator.clear();
         calculator.plus(10).divide(3.52).multiply(333333);
         System.out.println(calculator);
+
+        calculator.clear();
+        calculator.minus(25).divide(3.25).multiply(5.45);
+        System.out.println(calculator);
     }
 }
 
